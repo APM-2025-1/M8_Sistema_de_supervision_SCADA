@@ -48,23 +48,28 @@ Para el desarrollo del la interfaz HMI se comenzo creando la estructura de comun
 
 # 2. 🧩 Componentes del SCADA
 
-Es asi que usando el ignition designer se desarrollo el HMI aprovechando diferentes elementos de este se creo una interfaz navegable con un menú general, una parte especifica para las maquinas en este caso las bandas donde se pueden ver loes elementos de control y una variable de interes que es la velocidad del motor, una pagina para visualizar historicos y una para visualizar alarmas. Asi mismo ver si algun elemento esta en la entrada o salida de la banda y el estado del motor si esta parado o andando.
+Es asi que usando el ignition designer se desarrollo el HMI aprovechando diferentes elementos de este se creo una interfaz navegable con un menú general, una parte especifica para las máquinas en este caso las bandas donde se pueden ver loes elementos de control y una variable de interes que es la velocidad del motor, una página para visualizar historicos y una para visualizar alarmas. Asi mismo ver si algun elemento esta en la entrada o salida de la banda y el estado del motor si esta parado o andando.
 
+**Página principal**
 <div align="center">
     <img src="https://imgur.com/3nfp9h1.png" alt="Home_page" width="800px">
 </div>
 
+**Página máquina**
 <div align="center">
     <img src="https://imgur.com/B94Q8ul.png" alt="Conveyor_page" width="800px">
 </div>
 
+**Página historicos**
 <div align="center">
     <img src="https://imgur.com/IcadNnp.png" alt="Chars_page" width="800px">
 </div>
 
+**Página alarmas**
 <div align="center">
     <img src="https://imgur.com/vstfMae.png" alt="Alarms_page" width="800px">
 </div>
+
 
 [IP del SCADA azure](http://20.241.187.29:8088/data/perspective/client/Cloud_1)
 
