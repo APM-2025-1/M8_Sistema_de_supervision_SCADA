@@ -29,7 +29,7 @@
     <summary>🗂️ Tabla de Contenido</summary>
 
 <!-- TOC -->
-- [1. 📡 Estructura de cominicaciones](#1--estructura-de-cominicaciones)
+- [1. 📡 Estructura de comunicaciones](#1--estructura-de-comunicaciones)
 - [2. 🧩 Componentes del SCADA](#2--componentes-del-scada)
 - [3. ⚙️ Funcionamiento del SCADA](#3-️-funcionamiento-del-scada)
 
@@ -38,7 +38,7 @@
 
 </details>
 
-# 1. 📡 Estructura de cominicaciones
+# 1. 📡 Estructura de comunicaciones
 
 Para el desarrollo del la interfaz HMI se comenzo creando la estructura de comunicaciones de los elementos que interactuarian para su desarrollo y validación. Como se muestra en la imagen se creo un contenedor de Azure el cual tiene una imagen de ignition en donde se desarrollo la creación del HMI este recibe datos por medio de una comunicación MQTT de un ignition corriendo de forma local en un computador. Adicionalmente en el computador se tendria corriendo Node-red para una intergración de google assistan, Studio 5000 para la progrmación del PLC y NX para la visualización del comportamiento de la fabrica al ejecutarse toda la logica.
 
